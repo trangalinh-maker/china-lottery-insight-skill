@@ -10,6 +10,12 @@ A Chinese-language Codex skill for analyzing `大乐透(dlt)` and `双色球(ssq
 
 它的定位不是“稳赚预测器”，而是一个透明、可验证、带风险提示的彩票数据分析助手：把数据来源、校验状态、统计偏离、回测口径和娱乐性号码参考放在同一份中文报告里。
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=trangalinh-maker/china-lottery-insight-skill&type=Date)](https://www.star-history.com/#trangalinh-maker/china-lottery-insight-skill&Date)
+
+刚开源时曲线会比较安静；后续每一个 star 都会自动反映在这张趋势图里。
+
 ## Why This Exists
 
 | Pain point | What this skill does |
