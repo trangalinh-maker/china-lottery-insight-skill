@@ -1,0 +1,35 @@
+{
+  "issueWindow": 500,
+  "validation": {
+    "sampleSize": 30,
+    "minChecked": 20,
+    "minCoverage": 0.8
+  },
+  "history": {
+    "cacheMaxAgeDays": 14,
+    "maxMissedDraws": 1,
+    "hardMaxStaleDays": 45
+  },
+  "backtest": {
+    "evaluationLimit": 120,
+    "windowCandidates": [80, 160],
+    "bootstrapIterations": 500,
+    "groupTicketCount": 5,
+    "groupStrategyOrder": ["hot", "cold", "mixed", "mixed", "mixed"]
+  },
+  "ticketGeneration": {
+    "maxSchemes": 5,
+    "strategyOrder": ["hot", "cold", "mixed", "mixed", "mixed"],
+    "candidateAttempts": 120,
+    "minDistanceFloor": 4,
+    "minDistanceRatio": 0.6,
+    "distanceWeight": 5,
+    "patternPenaltyWeight": 3,
+    "objectiveHitWeight": 1,
+    "objectivePrizeWeight": 0.7,
+    "adaptiveMixEnabled": true,
+    "adaptiveLookbackDraws": 24,
+    "adaptiveMinLookback": 10,
+    "adaptiveProbeTickets": 12
+  }
+}

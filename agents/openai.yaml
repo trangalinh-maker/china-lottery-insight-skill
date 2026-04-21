@@ -1,0 +1,7 @@
+interface:
+  display_name: "China Lottery Insight"
+  short_description: "双色球/大乐透真实数据分析与预算推荐"
+  default_prompt: "Use $china-lottery-insight to analyze the latest 大乐透或双色球, explain the evidence clearly, and provide budget-aware ticket suggestions in Chinese."
+
+policy:
+  allow_implicit_invocation: true

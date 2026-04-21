@@ -1,0 +1,23 @@
+{
+  "source": "财政部年度彩票市场休市公告",
+  "rules": [
+    {
+      "festival": "春节",
+      "displayName": "春节休市",
+      "lengthDays": 10,
+      "startMonths": [1, 2],
+      "yearLengthDays": {
+        "2027": 10
+      },
+      "yearStartDates": {
+        "2027": "2027-02-06"
+      }
+    },
+    {
+      "festival": "国庆节",
+      "displayName": "国庆休市",
+      "lengthDays": 4,
+      "startMonths": [10]
+    }
+  ]
+}
